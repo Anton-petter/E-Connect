@@ -1,0 +1,147 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>e-connect</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/e-connect.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/e-connect.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="images/e-connect.png">
+    <link rel="icon" sizes="128x128" href="images/e-connect.png">
+    <link rel="icon" sizes="192x192" href="images/e-connect.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/f51a4ac45a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+
+        <a href="index.html"><img src="images/e-connect.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">OVER MIJ</a></li>
+            <li><a href="dienstenkosten.html">DIENSTEN/KOSTEN</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+   
+<h1>Contact ons</h1>
+
+    </section>
+
+<!--contact-->
+
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2413.069955962419!2d4.783172282176978!3d52.785046654990936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47cf4e2e9cd985cf%3A0xcf919a06153b7533!2sKievitlaan%2018%2C%201742%20AD%20Schagen!5e0!3m2!1snl!2snl!4v1682611439273!5m2!1snl!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-ons">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Kievitlaan 18</h5>
+                    <p>Schagen Nederland Noord-Holland</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+31 6 3292838</h5>
+                    <p>maandag, dinsdag, woensdag, donderdag, vrijdag</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>Levyveenstra@gmail.com</h5>
+                    <p>Email ons voor contact</p>
+                 </span>
+                </div>
+            </div>
+        
+        <div class="form-col">
+
+
+            <div class="container">
+                <form action="" id="contactForm">
+                    <div class="alert">Je bericht is verzonden we gaan zo snel mogelijk aan de slag!</div>
+        
+                    <div class="inputBox">
+                        <input type="text" id="name" placeholder="Je naam...." required/>
+                    </div>
+        
+            
+
+                    <div class="inputBox">
+                        <input type="email" id="emailid" placeholder="Je email....." required />
+                    </div>
+        
+                    <div class="inputBox">
+                        <textarea id="msgContent" cols="30" rows="10" placeholder="Je bericht" required></textarea>
+                    </div>
+        
+                    <div class="inputBox">
+                        <button type="submit" class="hero-btn red-btn">Verstuur</button>
+                    </div>
+                </form>
+            </div>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+            <script src="mail.js"></script>
+
+</section>
+
+        <!--------footer----------->
+
+        <section class="footer">
+ 
+            <h4>u heeft het einde bereikt van deze website:)</h4>
+            
+
+            <p>&copy; COPYRIGHT ALL RIGHTS RESERVED <br> By Levy Veenstra</p>
+        </section>
+
+
+
+
+    <!-------Javascript voor telefoon menu------->
+
+    <script>
+       
+       var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+        navLinks.style.right = "0";
+       }
+       function hideMenu(){
+        navLinks.style.right = "-200";
+       }
+
+    </script>
+
+
+
+</body>
+</html>

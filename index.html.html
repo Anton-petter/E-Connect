@@ -1,0 +1,163 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>e-connect</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f51a4ac45a.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/e-connect.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/e-connect.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="images/e-connect.png">
+    <link rel="icon" sizes="128x128" href="images/e-connect.png">
+    <link rel="icon" sizes="192x192" href="images/e-connect.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+    <nav>
+
+        <a href="index.html"><img src="images/e-connect.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">OVER MIJ</a></li>
+            <li><a href="dienstenkosten.html">DIENSTEN/KOSTEN</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+       <div class="text-box">
+        <h1>Stopcontactje erbij?</h1>
+        <p>wilt u een stopcontact, lamp of schakelaar erbij dan bent uw <br> aan het goede adres maar ook </p>
+    <a href="dienstenkosten.html" class="hero-btn">Klik hier om meer te weten</a>   
+    </div>
+    </section>
+
+    
+    
+
+    
+        <!-------Specialiteiten------->
+
+        <section class="specialiteiten">
+            <h1>Onze specialiteiten</h1>
+            <p>onze Specialiteiten in het bedrijf</p>
+            <div class="row">
+                <div class="specialiteiten-col">
+                    <img src="images/monteren.jpg">
+                    <h3>Het monteren</h3>
+                    <p>Wij zijn onderandere zeer goed in het veilig monteren van stopcontacten deze zijn uiterst ook netjes bevestigd</p>
+                </div>
+                <div class="specialiteiten-col">
+                    <img src="images/lamp.jpg">
+                    <h3>lampen ophangen</h3>
+                    <p>Wij zijn goed in lampen ophangen dus moet je nog een nieuwe lamp bel me!</p>
+                </div>
+                <div class="specialiteiten-col">
+                    <img src="images/schakelaar.jpg">
+                    <h3>schakelaars instaleeren</h3>
+                    <p>heeft u een nieuwe lamp maar geen schakelaar dan kunt u dat door ons laten doen.</p>
+                </div>
+
+            </div>
+        
+        </section>
+
+       
+
+         <!-------Reviews------->
+
+
+         <section class="reviews">
+            <h1>wat zeggen de klanten</h1>
+            <p>wat vinden de klanten van onze diensten? voor meer reviews ga naar www.trustsploit.nl</p>
+            
+            <div class="row">
+                <div class="reviews-col">
+                    <img src="images/user1.png">
+                    <div>
+                        <p>geweldige service geleverd echt top!</p>
+                        <h3>Yvonne Veenstra</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="reviews-col">
+                    <img src="images/user2.jpeg">
+                    <div>
+                        <p>levy heeft enorm geweldig werk geleverd bendankt</p>
+                        <h3>Karin Veenstra</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        
+        
+        </section>
+
+
+
+
+        <!-------cta------>
+
+        <section class="cta">
+            <h1>hier kunt u ons contacteren</h1>
+            <a href="contact.html" class="hero-btn">contact ons</a>
+        </section>
+
+
+
+        <!--------footer----------->
+
+        <section class="footer">
+ 
+            <h4>u heeft het einde bereikt van deze website:)</h4>
+            
+
+            <p>&copy; COPYRIGHT ALL RIGHTS RESERVED <br> By Levy Veenstra</p>
+        </section>
+
+
+
+
+    <!-------Javascript voor telefoon menu------->
+
+    <script>
+       
+       var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+        navLinks.style.right = "0";
+       }
+       function hideMenu(){
+        navLinks.style.right = "-200";
+       }
+
+    </script>
+
+
+
+</body>
+</html>

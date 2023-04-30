@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>e-connect</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/e-connect.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/e-connect.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="images/e-connect.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="images/e-connect.png">
+    <link rel="icon" sizes="128x128" href="images/e-connect.png">
+    <link rel="icon" sizes="192x192" href="images/e-connect.png">
+    <script src="https://kit.fontawesome.com/f51a4ac45a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+
+        <a href="index.html"><img src="images/e-connect.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">OVER MIJ</a></li>
+            <li><a href="dienstenkosten.html">DIENSTEN/KOSTEN</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+   
+<h1>Over mij</h1>
+
+    </section>
+
+    <section class="over-mij">
+        
+        <div class="row">
+            <div class="about-col">
+                <h1>Welkom op deze pagina, lees gerust even door!</h1>
+                <p>ik ben levy de electricien ik was toen ik jong was al dol op techniek ik soldeerde en installeerde stopcontacten en was/ben er onder de indruk hoe dat werkde en op latere leeftijd ben ik mijn eigen bedrijf begonnen zogenaamd "E-CONNECT"</p>
+             
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+        <!--------footer----------->
+
+        <section class="footer">
+ 
+            <h4>u heeft het einde bereikt van deze website:)</h4>
+            
+
+            <p>&copy; COPYRIGHT ALL RIGHTS RESERVED <br> By Levy Veenstra</p>
+        </section>
+
+
+
+
+    <!-------Javascript voor telefoon menu------->
+
+    <script>
+       
+       var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+        navLinks.style.right = "0";
+       }
+       function hideMenu(){
+        navLinks.style.right = "-200";
+       }
+
+    </script>
+
+
+
+</body>
+</html>
